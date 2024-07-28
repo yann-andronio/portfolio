@@ -1,0 +1,629 @@
+@media (max-width:768px) {
+    .section-stars .section2 {
+        grid-template-columns: 1fr;
+    }
+
+    .container-section2:nth-child(2) {
+        margin-top: 30px;
+    }
+
+
+    .section3 .cardd .imgBx::before {
+        content: '';
+    }
+    
+    footer .boxfoot {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .part1, .pp2, .pp3 {
+        justify-content: center;
+        display: flex;
+    }
+
+
+}
+
+
+@media (max-width:992px) {
+    .section3 {
+
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .section3 .cardd {
+        width: 400px;
+    }
+
+
+
+}
+
+
+@media (max-width:768px) {
+    .section1 {
+        margin-top: -9rem;
+        flex-direction: column-reverse;
+    }
+
+    .section1 .gauche {
+        margin-bottom: -4rem;
+    }
+
+    .parents-section3 {
+        margin-top: 7rem;
+    }
+
+    .titrecompetence {
+        margin-top: 2rem;
+    }
+
+    .section1 .droite {
+        margin-bottom: 0;
+    }
+
+
+
+    .parents-section3 {
+        width: 100%;
+        display: grid;
+        justify-content: center;
+
+    }
+
+
+    .section3 .cardd {
+        max-width: 300px;
+        flex-direction: column;
+        height: auto;
+        transition: 0.5s ease-in-out;
+    }
+
+    .section3 .cardd {
+        transform: none;
+    }
+
+    .section3 .cardd .imgBx {
+        position: relative;
+    }
+
+    .alagna {
+        display: none;
+    }
+
+
+
+
+    .section3 .cardd .content {
+        position: relative;
+        width: 100%;
+    }
+
+    .section3 .cardd:hover .imgBx,
+    .section3 .cardd:hover .imgBx img {
+        width: auto;
+        height: auto;
+        left: auto;
+        top: auto;
+        max-width: none;
+        transition: none;
+    }
+
+    .section3 .cardd:hover {
+        transform: scale(1.03);
+    }
+
+    .roa {
+        display: flex;
+        justify-content: center;
+        gap: 3rem;
+
+    }
+
+    .p2 {
+        font-size: 16px;
+    }
+
+    .cardd:nth-child(4) {
+        display: none;
+    }
+
+    /* .parralax-star {
+
+        height: 240rem;
+
+    } */
+
+
+
+
+}
+
+
+
+@media (max-width: 480px) {
+    .section1 {
+        margin-top: 2rem;
+        flex-direction: column-reverse;
+    }
+
+    .roa {
+        display: flex;
+
+    }
+
+    .cardd:nth-child(4) {
+        display: none;
+    }
+
+
+    .parents-section3 {
+        width: 100%;
+        display: grid;
+        justify-content: center;
+
+    }
+
+
+
+    .section3 .cardd .imgBx::before {
+        content: '';
+    }
+
+    .section3 .cardd:hover .imgBx,
+    .section3 .cardd:hover .imgBx img {
+        width: auto;
+        height: auto;
+        left: auto;
+        top: auto;
+        max-width: none;
+        transition: none;
+    }
+
+    /* .parralax-star {
+
+        height: 240rem;
+
+    } */
+
+    .voir h5 {
+        font-size: 14px;
+    }
+
+
+    /* .parralax-star {
+
+        height: 300rem;
+
+    } */
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+
+
+    .section-stars .section2::after {
+        left: 31px;
+    }
+
+    .section-stars .section2 .containertimeline {
+        width: 100%;
+        padding-right: 25px;
+        padding-left: 80px;
+    }
+
+    .text-box {
+        font-size: 13px;
+    }
+
+    .rigthtime {
+        left: 0;
+    }
+
+    .leftime img,
+    .rigthtime img {
+        left: 10px;
+    }
+
+    .larrow,
+    .rarrow {
+        border-right: 15px solid #103341;
+        ;
+        border-left: 0;
+        left: -14px;
+    }
+
+    .voir a {
+        padding: 1px 5px;
+        font-size: 1rem;
+
+    }
+
+    /* .parralax-star {
+
+        height: 240rem;
+
+    } */
+
+    .voir h5 {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* pour phone */
+
+@media only screen and (max-width: 768px) {
+
+
+    .section1{
+        margin-top: 40px;
+    }
+    .section1 .droite {
+       
+        width: 21rem;
+        margin-bottom: -93px;
+    }
+
+
+
+    .section-stars .section2::after {
+        left: 31px;
+    }
+
+    .section-stars .section2 .containertimeline {
+        width: 100%;
+        padding-right: 25px;
+        padding-left: 80px;
+    }
+
+    .text-box {
+        font-size: 13px;
+    }
+
+    .rigthtime {
+        left: 0;
+    }
+
+    .leftime img,
+    .rigthtime img {
+        left: 10px;
+    }
+
+    .larrow,
+    .rarrow {
+        border-right: 15px solid #103341;
+        ;
+        border-left: 0;
+        left: -14px;
+    }
+
+    .section4-next {
+
+        padding-left: 2rem;
+    }
+
+    .section4-prev {
+        padding-right: 2rem;
+    }
+
+
+    .voir a {
+        padding: 1px 5px;
+        font-size: 1rem;
+
+    }
+
+    .voir h5 {
+        font-size: 14px;
+    }
+
+    .parralax-star {
+
+        height: 210rem;
+
+    }
+    .pp3{
+        display: none;
+    }
+
+    .parralax-star{
+        height: 274rem;
+    }
+    /* footer{
+        margin-top: 3rem;
+
+    } */
+
+
+    /* footer */
+
+
+    /* footer .boxfoot {
+
+        flex-direction: column;
+    }
+
+    footer .pp2 {
+        padding: 3rem 0;
+    }
+
+    footer .credit {
+        font-size: 17px;
+    } */
+}
+
+
+/* pour tablette  1518-768 */
+
+@media screen and (max-width: 1089px) and (min-width: 768px) {
+    .voir h5 {
+        font-size: 14px;
+    }
+
+    .alagna {
+        display: none;
+    }
+
+    .alagna2 {
+        display: none;
+    }
+
+    .section1 .droite {
+        width: 140%;
+    }
+
+    .section1 .gauche {
+        margin-bottom: 21rem;
+        color: white;
+        width: 100%;
+    }
+
+    .section3 {
+        padding: 3rem;
+        top: 0;
+    }
+
+    .parents-section3 {
+
+        position: relative;
+
+        top: -13rem;
+    }
+
+    .section-stars .section2 {
+        position: relative;
+        max-width: 1200px;
+        margin: 100px auto;
+        margin-top: -10rem;
+    }
+
+
+
+    .section1 {
+        margin-top: 2rem;
+        flex-direction: row;
+        display: flex;
+    }
+
+    .parents-section3 {
+        position: relative;
+        top: -17rem;
+    }
+
+    .section-stars .section2 {
+        position: relative;
+        max-width: 1200px;
+        margin: 100px auto;
+        margin-top: -15rem;
+    }
+
+
+
+
+
+
+
+
+    .section-stars .section2::after {
+        left: 31px;
+    }
+
+    .section-stars .section2 .containertimeline {
+        width: 100%;
+        padding-right: 25px;
+        padding-left: 80px;
+    }
+
+    .text-box {
+        font-size: 13px;
+    }
+
+    .rigthtime {
+        left: 0;
+    }
+
+    .leftime img,
+    .rigthtime img {
+        left: 10px;
+    }
+
+    .larrow,
+    .rarrow {
+        border-right: 15px solid #103341;
+        ;
+        border-left: 0;
+        left: -14px;
+    }
+
+    /* .parralax-star {
+
+        height: 218rem;
+
+    } */
+
+    .card4:hover .voir {
+
+        top: 50%;
+        opacity: 1;
+    }
+
+    .voir h5 {
+        font-size: 1.5rem;
+
+    }
+
+
+    .pp3{
+        display: none;
+    }
+
+    /* .parralax-star {
+
+        height: 196rem;
+
+    } */
+
+    .parralax-star {
+        height: 217rem;
+    }
+
+
+    /* footer 
+    .boxfoot {
+
+        flex-direction: column;
+    }
+
+    footer .pp2 {
+        padding: 3rem 0;
+    }
+
+    footer .credit {
+        font-size: 17px;
+    } */
+
+}
+
+
+/* mini ordi */
+@media screen and (max-width: 1380px) and (min-width: 1089px) {
+    /* .parralax-star {
+
+        height: 206rem;
+
+    } */
+
+    .card4:hover .voir {
+
+        top: 50%;
+        opacity: 1;
+    }
+
+}
+
+
+/* exeption */
+
+@media screen and (max-width: 1500px) and (min-width: 1360px) {
+    .card4:hover .voir {
+
+        top: 50%;
+        opacity: 1;
+    }
+
+}
+
+/* iphone 12 pro fognaa */
+
+@media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
+    .blob {
+        position: absolute;
+        width: 71%;
+        top: -18rem;
+    }
+
+    .droite img {
+        top: -17rem;
+        position: absolute;
+        width: 46%;
+    }
+}
+
+
+/* Media query pour cibler le Samsung Galaxy S8+ */
+@media only screen and (device-width: 360px) and (device-height: 740px) and (-webkit-device-pixel-ratio: 4) {
+    .section1 .droite {
+        width: 21rem;
+        margin-bottom: -85px;
+    }
+}
+
+
+
+/* Media query pour cibler l'iPad Mini en mode portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 768px) and (min-device-height: 1024px) and (max-device-height: 1024px) and (orientation: portrait) {
+    .section1 {
+        margin-top: 2rem;
+        flex-direction: row;
+        display: flex;
+    }
+
+    .parents-section3 {
+        position: relative;
+        top: -27rem;
+    }
+
+    .section-stars .section2 {
+        position: relative;
+        max-width: 1200px;
+        margin: 100px auto;
+        margin-top: -27rem;
+    }
+}
+
+
+
+/* Media query pour cibler l'iPhone SE en mode portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 375px) and (min-device-height: 568px) and (max-device-height: 667px) and (orientation: portrait) {
+    .section1 .droite {
+        width: 21rem;
+        margin-bottom: -89px;
+    }
+
+    .section-stars .section2 {
+        margin-top: -24rem;
+        /* margin: 50px auto; */
+    }
+}
